@@ -1,0 +1,276 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .data          0x00000000        0x0 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .bss           0x00000000        0x0 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .comment       0x00000000       0x1c C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+LOAD c:/users/hp/.ufbt/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD c:/users/hp/.ufbt/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/users/hp/.ufbt/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD c:/users/hp/.ufbt/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+
+.text           0x00000000     0x12ec
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.subghz_toolkit_exit_callback
+                0x00000000        0x6 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_exit_to_submenu_callback
+                0x00000006        0x4 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x0000000a        0x2 
+ .text.subghz_toolkit_app_alloc
+                0x0000000c      0x1d4 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_popup_callback
+                0x000001e0       0x10 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_show_intro_popup
+                0x000001f0       0x80 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_deep_protocol_analysis
+                0x00000270      0x1f0 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_export_keeloq_keys
+                0x00000460      0x138 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_show_protocols_list
+                0x00000598      0x15c C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_show_about
+                0x000006f4       0x50 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_export_all_protocol_info
+                0x00000744      0x254 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_advanced_analysis
+                0x00000998      0x530 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_extract_protocol_details
+                0x00000ec8      0x238 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_submenu_callback
+                0x00001100      0x120 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_app_free
+                0x00001220       0xa0 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .text.subghz_toolkit_app
+                0x000012c0       0x2c C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+                0x000012c0                subghz_toolkit_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000012ec     0x143a
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.subghz_toolkit_app_alloc.str1.4
+                0x000012ec       0xe6 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x000013d2        0x2 
+ .rodata.subghz_toolkit_show_intro_popup.str1.4
+                0x000013d4       0x3a C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x0000140e        0x2 
+ .rodata.subghz_toolkit_deep_protocol_analysis.str1.4
+                0x00001410      0x2aa C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x000016ba        0x2 
+ .rodata.subghz_toolkit_export_keeloq_keys.str1.4
+                0x000016bc      0x1c7 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x00001883        0x1 
+ .rodata.subghz_toolkit_show_protocols_list.str1.4
+                0x00001884       0x4a C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x000018ce        0x2 
+ .rodata.subghz_toolkit_show_about.str1.4
+                0x000018d0      0x128 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .rodata.subghz_toolkit_export_all_protocol_info.str1.4
+                0x000019f8      0x33f C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x00001d37        0x1 
+ .rodata.subghz_toolkit_advanced_analysis.str1.4
+                0x00001d38      0x81a C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x00002552        0x2 
+ .rodata.subghz_toolkit_extract_protocol_details.str1.4
+                0x00002554      0x182 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *fill*         0x000026d6        0x2 
+ .rodata.subghz_toolkit_submenu_callback.str1.4
+                0x000026d8       0x4e C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x90
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x90 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3801
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x3801 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.debug_abbrev   0x00000000      0x3c6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3c6 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.debug_line     0x00000000     0x121c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x723 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_exit_callback
+                0x00000723       0x1b C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_exit_to_submenu_callback
+                0x0000073e       0x1b C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_app_alloc
+                0x00000759       0xb9 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_popup_callback
+                0x00000812       0x1e C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_show_intro_popup
+                0x00000830       0x26 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_deep_protocol_analysis
+                0x00000856      0x13f C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_export_keeloq_keys
+                0x00000995       0xee C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_show_protocols_list
+                0x00000a83       0xac C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_show_about
+                0x00000b2f       0x26 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_export_all_protocol_info
+                0x00000b55      0x12b C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_advanced_analysis
+                0x00000c80      0x2ed C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_extract_protocol_details
+                0x00000f6d      0x1a7 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_submenu_callback
+                0x00001114       0xaf C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_app_free
+                0x000011c3       0x2f C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line.text.subghz_toolkit_app
+                0x000011f2       0x2a C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ .debug_line_end
+                0x0000121c        0x0 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.debug_frame    0x00000000      0x204
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x204 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.debug_str      0x00000000     0x1859
+ *(.debug_str)
+ .debug_str     0x00000000     0x1859 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x7a9
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x7a9 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x10c
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x10c C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/hp/.ufbt/build/subghz_toolkit/subghz_toolkit.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(C:/Users/hp/.ufbt/build/subghz_toolkit_d.elf elf32-littlearm)
+LOAD linker stubs
